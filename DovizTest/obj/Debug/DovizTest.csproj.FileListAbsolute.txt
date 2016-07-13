@@ -3,7 +3,6 @@ C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\Dov
 C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\Doviz.exe
 C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\FluentAssertions.Core.dll
 C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\FluentAssertions.dll
-C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\NuGet.Core.dll
 C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\nunit.framework.dll
 C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\Doviz.pdb

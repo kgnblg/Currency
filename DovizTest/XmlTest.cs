@@ -11,7 +11,7 @@ namespace DovizTest
         XmlDocument doc;
 
         [Test]
-        void BaglantiKur()
+        public void BaglantiKur()
         {
             XmlDocument gelen = new XmlDocument();
 
@@ -30,11 +30,11 @@ namespace DovizTest
 
             gelen = Xml.BaglantiKur("USD");
 
-            Assert.AreSame(doc,gelen);
+            Assert.AreEqual(doc.InnerText,gelen.InnerText);
         }
 
         [Test]
-        void XmlParcala()
+        public void XmlParcala()
         {
             string[] gelenxml = Xml.XmlParcala(doc);
 

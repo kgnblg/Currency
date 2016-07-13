@@ -6,7 +6,7 @@ namespace DovizTest
     [TestFixture]
     public class HesapTest
     {
-        string parabirimi = "USD - 2.12";
+        string parabirimi = "USD - 212";
 
         [Test]
         public void ParabirimiBol()
@@ -16,7 +16,7 @@ namespace DovizTest
 
             string gelen = Hesap.ParabirimiBol(parabirimi);
 
-            Assert.AreSame(parabolunmus,gelen);
+            Assert.AreEqual(parabolunmus,gelen);
         }
 
         [Test]
@@ -25,9 +25,9 @@ namespace DovizTest
             string[] ayir = parabirimi.Split('-');
             string parabolunmus = ayir[1].Trim();
 
-            string gelen = Hesap.ParabirimiBol(parabirimi);
+            string gelen = Hesap.KurBol(parabirimi).ToString();
 
-            Assert.AreSame(parabolunmus, gelen);
+            Assert.AreEqual(parabolunmus, gelen);
         }
     }
 }
