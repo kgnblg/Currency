@@ -1,6 +1,6 @@
 c:\users\kgn\documents\visual studio 2015\Projects\Doviz\Doviz\bin\Debug\Doviz.exe.config
-c:\users\kgn\documents\visual studio 2015\Projects\Doviz\Doviz\obj\Debug\Doviz.csprojResolveAssemblyReference.cache
 c:\users\kgn\documents\visual studio 2015\Projects\Doviz\Doviz\bin\Debug\Doviz.exe
 c:\users\kgn\documents\visual studio 2015\Projects\Doviz\Doviz\bin\Debug\Doviz.pdb
 c:\users\kgn\documents\visual studio 2015\Projects\Doviz\Doviz\obj\Debug\Doviz.exe
 c:\users\kgn\documents\visual studio 2015\Projects\Doviz\Doviz\obj\Debug\Doviz.pdb
+C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\Doviz\obj\Debug\Doviz.csprojResolveAssemblyReference.cache

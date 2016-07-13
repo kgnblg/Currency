@@ -1,20 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Doviz
+﻿namespace Doviz
 {
-    class Doviz
+    public class Doviz1
     {
         decimal tutar;
-        string currency;
+        string birim;
 
-        public Doviz(decimal tutar, string currency)
+        public Doviz1(decimal tutar, string birim)
         {
-            this.tutar = tutar;
-            this.currency = currency;
+            this.Tutar = tutar;
+            this.Birim1 = birim;
+        }
+
+        public string Birim1
+        {
+            get
+            {
+                return birim;
+            }
+
+            set
+            {
+                birim = value;
+            }
         }
 
         public decimal Tutar
@@ -27,19 +34,6 @@ namespace Doviz
             set
             {
                 tutar = value;
-            }
-        }
-
-        public string Currency
-        {
-            get
-            {
-                return currency;
-            }
-
-            set
-            {
-                currency = value;
             }
         }
     }

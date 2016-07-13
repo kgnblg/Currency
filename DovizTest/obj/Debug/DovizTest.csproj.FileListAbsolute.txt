@@ -1,0 +1,17 @@
+C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\DovizTest.dll
+C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\DovizTest.pdb
+C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\Doviz.exe
+C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\FluentAssertions.Core.dll
+C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\FluentAssertions.dll
+C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\NuGet.Core.dll
+C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\nunit.framework.dll
+C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\Doviz.pdb
+C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\FluentAssertions.pdb
+C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\FluentAssertions.xml
+C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\FluentAssertions.Core.pdb
+C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\FluentAssertions.Core.xml
+C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\bin\Debug\nunit.framework.xml
+C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\obj\Debug\DovizTest.csprojResolveAssemblyReference.cache
+C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\obj\Debug\DovizTest.dll
+C:\Users\KGN\documents\visual studio 2015\Projects\Doviz\DovizTest\obj\Debug\DovizTest.pdb

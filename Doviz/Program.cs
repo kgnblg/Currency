@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml;
 
 namespace Doviz
@@ -11,13 +7,13 @@ namespace Doviz
     {
         static void Main(string[] args)
         {
-            Doviz dvz = new Doviz(500,"USD");
+            Doviz1 doviz = new Doviz1(500, "USD");
 
-            XmlDocument Doc = XmlCek.Baglanti(dvz.Currency);
-            string[] gelen = XmlCek.XmlParser(Doc);
+            XmlDocument doc = Xml.BaglantiKur(doviz.Birim1);
+            string[] gelen = Xml.XmlParcala(doc);
 
-            Hesapla hsp = new Hesapla(dvz.Tutar,gelen);
-            hsp.hesaplaYaz();
+            Hesap hesap = new Hesap(doviz.Tutar,gelen);
+            hesap.HesaplaYaz();
             Console.ReadLine();
 
         }
