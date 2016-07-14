@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 
 namespace Doviz
 {
-    class Json1
+    public class Json1
     {
         public static string BaglantiKur(string tur)
         {
