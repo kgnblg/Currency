@@ -13,7 +13,7 @@ namespace Doviz
             this.para = para;
         }
 
-        public void HesaplaYaz()
+        public void Hesapla()
         {
             for (int i = 0; i < para.Length; i++)
             {
@@ -22,8 +22,13 @@ namespace Doviz
 
                 double paradonustur = (double)tutar * kur;
                 string sonuc = kisapara+" "+paradonustur.ToString();
-                Console.WriteLine(sonuc);
+                HesapBas(sonuc);
             }
+        }
+
+        public static void HesapBas(string veri)
+        {
+            Console.WriteLine(veri);
         }
 
         public static string ParabirimiBol(string parabirimi)
