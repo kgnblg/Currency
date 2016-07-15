@@ -1,48 +1,29 @@
-﻿using System;
-
+﻿
 namespace Doviz
 {
     public class Hesap
     {
         decimal tutar;
-        string[] para;
+        GetExchangeRatesResponse paralistesi;
 
-        public Hesap(decimal tutar, string [] para)
+        public Hesap(decimal tutar, GetExchangeRatesResponse paralistesi)
         {
             this.tutar = tutar;
-            this.para = para;
+            this.paralistesi = paralistesi;
         }
 
-        public void Hesapla()
+        public string [] KurHesapla()
         {
-            for (int i = 0; i < para.Length; i++)
+            string[] sonuc = new string[paralistesi.CurrencyPairs.Length];
+            for (int i = 0; i < paralistesi.CurrencyPairs.Length; i++)
             {
-                string kisapara = ParabirimiBol(para[i]);
-                double kur = KurBol(para[i]);
+                string kisapara = paralistesi.CurrencyPairs[i].CounterCurrency;
+                double kur = double.Parse(paralistesi.CurrencyPairs[i].Rate.ToString());
 
                 double paradonustur = (double)tutar * kur;
-                string sonuc = kisapara+" "+paradonustur.ToString();
-                HesapBas(sonuc);
+                sonuc[i] = kisapara+" "+paradonustur.ToString();
             }
-        }
-
-        public static void HesapBas(string veri)
-        {
-            Console.WriteLine(veri);
-        }
-
-        public static string ParabirimiBol(string parabirimi)
-        {
-            string[] ayir = parabirimi.Split('-');
-            string parabolunmus = ayir[0].Trim();
-            return parabolunmus;
-        }
-
-        public static double KurBol(string parabirimi)
-        {
-            string[] ayir = parabirimi.Split('-');
-            double kur =  double.Parse(ayir[1].Trim());
-            return kur;
+            return sonuc;
         }
     }
 }

@@ -47,11 +47,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cikti.cs" />
     <Compile Include="Doviz.cs" />
     <Compile Include="Hesap.cs" />
+    <Compile Include="IParcala.cs" />
     <Compile Include="Json.cs" />
+    <Compile Include="ParaListe.cs" />
+    <Compile Include="ParaParite.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Veri.cs" />
     <Compile Include="Xml.cs" />
   </ItemGroup>
   <ItemGroup>

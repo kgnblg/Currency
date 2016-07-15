@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Xml;
 
 namespace Doviz
 {
@@ -7,18 +6,14 @@ namespace Doviz
     {
         static void Main(string[] args)
         {
-            Doviz1 doviz = new Doviz1(500, "USD");
-
-            string jsoncikti = Json1.BaglantiKur("USD");
-            string [] gelen = Json1.JsonParcala(jsoncikti);
-
-            //XmlDocument doc = Xml.BaglantiKur(doviz.Birim1);
-            //string[] gelen = Xml.XmlParcala(doc);
-
-            Hesap hesap = new Hesap(doviz.Tutar,gelen);
-            hesap.Hesapla();
+            Doviz doviz = new Doviz(500, "USD");
+            Veri veri = new Veri(doviz.birim, "application/json"); //text/xml
+            //Xml xml = new Xml(veri.VeriCek());
+            Json jsn = new Json(veri.VeriCek());
+            GetExchangeRatesResponse gelenveri = jsn.Parcala(); // Xml.Parcala();
+            Hesap hesap = new Hesap(doviz.tutar, gelenveri);
+            Cikti.EkranaYaz(hesap.KurHesapla());
             Console.ReadLine();
-
         }
     }
 }

@@ -1,40 +1,14 @@
 ﻿namespace Doviz
 {
-    public class Doviz1
+    public class Doviz
     {
-        decimal tutar;
-        string birim;
+        public decimal tutar { get; set; }
+        public string birim { get; set; }
 
-        public Doviz1(decimal tutar, string birim)
+        public Doviz(decimal tutar, string birim)
         {
-            this.Tutar = tutar;
-            this.Birim1 = birim;
-        }
-
-        public string Birim1
-        {
-            get
-            {
-                return birim;
-            }
-
-            set
-            {
-                birim = value;
-            }
-        }
-
-        public decimal Tutar
-        {
-            get
-            {
-                return tutar;
-            }
-
-            set
-            {
-                tutar = value;
-            }
+            this.tutar = tutar;
+            this.birim = birim;
         }
     }
 }
